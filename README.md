@@ -2,7 +2,7 @@
 
 MovieApp is a sleek and modern **movie discovery app** built with **React Native**. Whether you're looking for the latest blockbusters or hidden gems, CineFind makes it effortless to explore trending and popular films in real-time. It leverages the **TMDB API** for fetching movie data and uses **Appwrite** to track search queries and display trending content based on actual user behavior.
 
-With a dynamic interface powered by **Tailwind CSS (via NativeWind)** and **Expo Router** for smooth navigation, CineFind ensures a responsive and intuitive experience on mobile devices.
+With a dynamic interface powered by **Tailwind CSS (via NativeWind)** and **Expo Router** for smooth navigation, the app ensures a responsive and intuitive experience on mobile devices.
 
 ---
 
