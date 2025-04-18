@@ -40,4 +40,7 @@ With a dynamic interface powered by **Tailwind CSS (via NativeWind)** and **Expo
 ---
 
 ## 📸 Running the App
+- Running on iOS : https://drive.google.com/drive/folders/1UAsdoZVbW-mvcPjJWZBn0gwNb-xEy5Hi?usp=drive_link
+- Running on Android : https://drive.google.com/drive/folders/1q7ckQNcPoAnzPYVpTiY1aX_2Gc_qB_LP?usp=drive_link
+- Appwrite(Backend) Screenshots : https://drive.google.com/drive/folders/12sQI3Yq2s41UthD8DMEBnjVfzjERJUIl?usp=drive_link
 
