@@ -39,5 +39,5 @@ With a dynamic interface powered by **Tailwind CSS (via NativeWind)** and **Expo
 
 ---
 
-## 📸 Screenshots
+## 📸 Running the App
 
