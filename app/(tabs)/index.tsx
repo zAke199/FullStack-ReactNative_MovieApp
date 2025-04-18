@@ -94,7 +94,7 @@ export default function Index() {
                 onEndReachedThreshold={0.5}
                 ListHeaderComponent={
                     <>
-                        <Image source={icons.logo} className="w-12 h-10 mt-20 mx-auto" />
+                        <Image source={icons.logo2} className="w-24 h-20 mt-20 mx-auto" />
                         <SearchBar
                             onPress={() => router.push("/search")}
                             placeholder="Search for a Movie"

@@ -71,7 +71,7 @@ export default function TabsLayout() {
             />
 
             <Tabs.Screen
-                name="saved" // Changed from "save" to "saved" (ensure it matches your file structure)
+                name="saved"
                 options={{
                     title: "Saved",
                     headerShown: false,

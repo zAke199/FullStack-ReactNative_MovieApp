@@ -54,17 +54,12 @@ const Search = () => {
                 contentContainerStyle={{paddingBottom: 100}}
                 ListHeaderComponent={
                 <>
-                    <View className="w-full flex-row justify-center mt-20 items-center">
-                        <Image source={icons.logo} className="w-12 h-10"/>
-                    </View>
-                    <View className="my-5">
-                        <SearchBar
-                            placeholder="Search Movies..."
-                            value={searchQuery}
-                            onChangeText={(text : string) => setSearchQuery(text)}
-
-                        />
-                    </View>
+                    <Image source={icons.logo2} className="w-24 h-20 mt-20 mx-auto" />
+                    <SearchBar
+                        placeholder="Search for a Movie"
+                        value={searchQuery}
+                        onChangeText={(text: string) => setSearchQuery(text)}
+                    />
                     {loading && (
                         <ActivityIndicator size="large" color="#0000ff" className="my-3" />
                     )}
