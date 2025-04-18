@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+🎬 MovieApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+CineFind is a modern movie discovery app built with React Native, designed to help users explore trending and popular films seamlessly. The app fetches real-time movie data from the TMDB API and enhances user experience with a smart search feature. Every user search is tracked with Appwrite, enabling dynamic trending movie insights based on actual user behavior. With a clean, responsive UI powered by Tailwind CSS, CineFind offers an intuitive and visually engaging way to find your next favorite movie.
 
-## Get started
+🔧 Features
 
-1. Install dependencies
+🔍 Real-time Search with auto-throttled updates
 
-   ```bash
-   npm install
-   ```
+🎞️ Trending Movies Section driven by live search data
 
-2. Start the app
+🧠 Custom Trending Logic: Tracks user searches via Appwrite and sorts based on frequency
 
-   ```bash
-    npx expo start
-   ```
+🖼️ Dynamic Poster Grid with infinite scroll (pagination)
 
-In the output, you'll find options to open the app in a
+📲 Mobile-optimized UI with TailwindCSS (via NativeWind)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+⚡ Smooth navigation using Expo Router
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🛠️ Tech Stack
 
-## Get a fresh project
+Category
 
-When you're ready, run:
+Tech Used
 
-```bash
-npm run reset-project
-```
+Frontend
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+React Native (via Expo), TypeScript, Tailwind CSS (NativeWind)
 
-## Learn more
+Navigation
 
-To learn more about developing your project with Expo, look at the following resources:
+Expo Router
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Backend-as-a-Service
 
-## Join the community
+Appwrite (for storing & ranking user search data)
 
-Join our community of developers creating universal apps.
+API
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+TMDB (The Movie Database API)
+
+State/Data
+
+React Hooks, custom useFetch hook
+
+Deployment
+
+EAS (Expo Application Services)
+
+Design/Styling
+
+TailwindCSS classes in JSX (through NativeWind)
