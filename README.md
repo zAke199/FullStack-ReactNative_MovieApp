@@ -8,12 +8,12 @@ With a dynamic interface powered by **Tailwind CSS (via NativeWind)** and **Expo
 
 ## 🚀 Features
 
-- 🔍 **Real-time Search** — Instantly search for movies with auto-throttled updates
-- 🎞️ **Trending Movies Section** — Dynamically generated from live user search data
-- 🧠 **Custom Trending Logic** — Tracks and ranks search terms using Appwrite based on frequency
-- 🖼️ **Dynamic Poster Grid** — Infinite scrolling with smooth pagination
-- 📲 **Mobile-Optimized UI** — Built with NativeWind and responsive TailwindCSS classes
-- ⚡ **Fast Navigation** — Powered by Expo Router and seamless transitions
+- **Real-time Search** — Instantly search for movies with auto-throttled updates
+- **Trending Movies Section** — Dynamically generated from live user search data
+- **Custom Trending Logic** — Tracks and ranks search terms using Appwrite based on frequency
+- **Dynamic Poster Grid** — Infinite scrolling with smooth pagination
+- **Mobile-Optimized UI** — Built with NativeWind and responsive TailwindCSS classes
+- **Fast Navigation** — Powered by Expo Router and seamless transitions
 
 ## 🔥 Trending Movies
 
