@@ -19,10 +19,10 @@ export default function Index() {
         error: trendingError,
     } = useFetch(getTrendingMovies);
 
-    const [movies, setMovies] = useState([]);
-    const [page, setPage] = useState(1);
-    const [loading, setLoading] = useState(false);
-    const [hasMore, setHasMore] = useState(true);
+    const [movies, setMovies] = useState<Movie[]>([]);
+    const [page, setPage] = useState<number>(1);
+    const [loading, setLoading] = useState<boolean>(false);
+    const [hasMore, setHasMore] = useState<boolean>(true);
 
     const loadMovies = async () => {
         if (loading || !hasMore) return;
@@ -33,7 +33,7 @@ export default function Index() {
             if (newMovies.length === 0) {
                 setHasMore(false);
             } else {
-                setMovies(prev => [...prev, ...newMovies]);
+                setMovies((prev) => [...prev, ...newMovies]);
             }
         } catch (err) {
             console.error("Error fetching movies:", err);
@@ -48,13 +48,12 @@ export default function Index() {
 
     const handleLoadMore = () => {
         if (!loading && hasMore) {
-            setPage(prev => prev + 1);
+            setPage((prev) => prev + 1);
         }
     };
 
     const uniqueTrendingMovies = trendingMovies?.filter(
-        (movie, index, self) =>
-            index === self.findIndex((m) => m.movie_id === movie.movie_id)
+        (movie, index, self) => index === self.findIndex((m) => m.movie_id === movie.movie_id)
     );
 
     if (trendingLoading && page === 1 && movies.length === 0) {
@@ -68,9 +67,7 @@ export default function Index() {
     if (trendingError) {
         return (
             <View className="flex-1 justify-center items-center bg-[#030014] px-5">
-                <Text className="text-white">
-                    Error: {trendingError?.message}
-                </Text>
+                <Text className="text-white">Error: {trendingError?.message}</Text>
             </View>
         );
     }
@@ -111,9 +108,7 @@ export default function Index() {
                                     renderItem={({ item, index }) => (
                                         <TrendingCard movie={item} index={index} />
                                     )}
-                                    keyExtractor={(item, index) =>
-                                        `${item.movie_id}-${index}`
-                                    }
+                                    keyExtractor={(item, index) => `${item.movie_id}-${index}`}
                                     ItemSeparatorComponent={() => <View className="w-4" />}
                                     showsHorizontalScrollIndicator={false}
                                     className="mb-4 mt-3"
